@@ -46,12 +46,6 @@ function draw() {
   rectMode(CENTER);
   background(255,250,250);
   Engine.update(engine);
-  
-  bob1.display();
-  bob2.display();
-  bob3.display();
-  bob4.display();
-  bob5.display();
 
   rope1.display();
   rope2.display();
@@ -60,6 +54,13 @@ function draw() {
   rope5.display();
 
   roof.display();
+
+  bob1.display();
+  bob2.display();
+  bob3.display();
+  bob4.display();
+  bob5.display();
+  
   drawSprites();
 }
 
