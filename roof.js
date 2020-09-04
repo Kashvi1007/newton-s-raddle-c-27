@@ -16,8 +16,7 @@ class Roof {
       translate(pos.x, pos.y);
       rectMode(CENTER);
       strokeWeight(4);
-      stroke("yellow");
-      fill(255,15,77);
+      stroke("black");
       rect(0,0, this.width, this.height);
       pop();
     }
